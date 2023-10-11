@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top
+{
+    height: 70px;
+    background-color: rgb(2, 39, 2);
+}
+
+.navbar {
+ margin-bottom :20px; 
+    margin-top: -15px;
+    /* margin-right: 96px; */
+    /* position: fixed; */
+    /* top: 0; */
+    margin-left: 170px;
+    /* right: 5%; Adjust as needed */
+    width: 70%;
+    height: 50px;
+    background-color: lightgreen; /* Background color of the navbar */
+    color: #fff; /* Text color of the navbar */
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+/* Style your navigation links as needed */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+font-size: 20px;
+}
+
+img{
+    border-radius: 100%;
+}
+.logo{
+    /* margin-top: 20px; */
+    border-radius: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    border-right: 1px solid #fff; /* Add a vertical border */
+    padding-right: 10px; /* Add some space to the right of the link */
+    text-align: center;
+}
+
+/* Remove border from the last link */
+.navbar a:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .card {
+    width: 25%; /* 25% to fit 4 cards in a row with some spacing */
+    height: 250px;
+    background-color: #ccc; /* Gray background color */
+    margin-bottom: 20px; /* Spacing between rows of cards */
+    box-sizing: border-box;
+    padding: 20px;
+  }
